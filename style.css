@@ -46,6 +46,7 @@ iframe{
     margin: left 2%;
     border: solid rgb(211, 209, 209) 2px;
     box-shadow: #a8a2a2;
+    margin-top: 37px;
   }
   
   .carousel-inner {
@@ -69,20 +70,24 @@ iframe{
     background-color:white;
   }
   
-  p{
-    text-align: center;
-    padding: 5px;
-    margin: auto;
-    font-weight: bold;
-    color: rgb(122, 120, 120);
-  }
+ #comentario {
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  font-weight: bold;
+  color: rgb(122, 120, 120);
+  background-color: #e7e7ee;
+  margin: auto;
+  margin-top: 20px;margin-right: 10px;
+  margin-inline-start: 20px;
+ }
   h2{
     text-align: center;
     padding: 12px;
     
   }
   .col-4{
-    background-color: #d6d0d0;
+    background-color: #c2c1cf;
     opacity: 70%;
   }
 #centros{
@@ -90,15 +95,24 @@ iframe{
   padding: 18px;
   color: white;
   font-weight: bold;
+  margin-top: 20px;
 }
 .card-body{
   height: 200px;
+ 
 }
 .col-3{
   padding: 20px;
 }
 h4{
   text-align: center;
+}
+.card{
+  border: solid 2px rgb(185, 177, 177);
+}
+form{
+  border: solid 2px gray;
+  padding: 10px
 }
 
 
