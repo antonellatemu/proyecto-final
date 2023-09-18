@@ -4,16 +4,25 @@ body{
     padding: 0%;
     font-family: 'Montserrat', sans-serif;
 }
+#menu{
+position: fixed;
+top: 0;
+z-index: 1000;
+
+}
 nav{
     width: 100%;
     background-color: rgba(16, 26, 82, 0.829);
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 0;
     margin-top: 2%;
     
 }
 nav .lista, h1{
     display: inline;
+}
+main{
+  margin-top: 100px;
 }
 .lista{
 margin-left:20%;
@@ -38,6 +47,9 @@ iframe{
    height: 570px;
    padding: 10px;
 }
+#mapa{
+  margin-top: 5%;
+}
 
 
 .carousel {
@@ -45,8 +57,8 @@ iframe{
     margin-inline-start: 2%;
     margin: left 2%;
     border: solid rgb(211, 209, 209) 2px;
-    box-shadow: #a8a2a2;
-    margin-top: 37px;
+    box-shadow: #d4d1d1;
+    margin-top: ;
   }
   
   .carousel-inner {
@@ -61,8 +73,8 @@ iframe{
   }
   
   .carousel-control-prev, .carousel-control-next {
-    background-color: #a8a2a2;
-    opacity: 50%
+    background-color: #dad7d7;
+    opacity: 40%
     
   }
   
@@ -70,25 +82,25 @@ iframe{
     background-color:white;
   }
   
- #comentario {
+ #parrafo-a-mostrar{
   text-align: center;
   padding: 5px;
   margin: auto;
-  font-weight: bold;
-  color: rgb(122, 120, 120);
-  background-color: #e7e7ee;
+  color: rgb(22, 21, 21);
   margin: auto;
-  margin-top: 20px;margin-right: 10px;
-  margin-inline-start: 20px;
+  margin-top: 2%;
+  font-size: 18px;
+  
  }
   h2{
     text-align: center;
     padding: 12px;
     
+    
   }
   .col-4{
     background-color: #c2c1cf;
-    opacity: 70%;
+    opacity:;
   }
 #centros{
   background-color: rgba(16, 26, 82, 0.829);
@@ -99,8 +111,9 @@ iframe{
 }
 .card-body{
   height: 200px;
- 
 }
+  
+ 
 .col-3{
   padding: 20px;
 }
@@ -111,9 +124,71 @@ h4{
   border: solid 2px rgb(185, 177, 177);
 }
 form{
-  border: solid 2px gray;
-  padding: 10px
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
 }
+#formulario{
+  background-color: rgba(16, 26, 82, 0.829);
+  color: white;
+  
+}
+p{
+  text-align: center;
+}
+label{
+  margin-top: 5%;
+  border-radius: 10px;
+}
+input{
+  border-radius: 10px;
+  border: solid 2px grey;
+}
+.card-text{
+  text-align: start;
+  margin: auto
+}
+input:focus {
+  background-color: lightblue;
+  color: darkblue;
+}
+#texto-a-mostrar {
+  opacity: 0;
+}
+
+@keyframes aparecer {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+#texto-a-mostrar {
+  opacity: 0;
+}
+
+@keyframes aparecer {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.aparecer {
+  animation: aparecer 3s ease-in-out forwards;
+}
+#parrafo-a-mostrar{
+  opacity: 0;
+}
+
+
+
+
+
+
 
 
 
