@@ -6,6 +6,7 @@
     <title>Salud agenda Olavarria</title>
     <link rel="stylesheet" href="boot.css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqyo2rnSTWRNR9KVCvucpCufugW3Whd4QHERE&callback=console.debug&libraries=maps,marker&v=beta">
     </script>
     
@@ -59,29 +60,32 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
     </div>
     <div class="col-4" ;>
-      <div id="mapa"><h2>Localiza la direccion <a href="#mapa">Aqui</a></h2></div>
+      <div id="ubicacion"><h2>Localiza la direccion <a href="map">Aqui</a></h2></div>
       <div class="mapa">
        <section id="#mapa"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25526.813997293753!2d-60.329447727601234!3d-36.89389467744782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959445daae9e90a3%3A0xd11aadb313dbf072!2sOlavarr%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1694519003989!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></section>
     </div>
   </div>
   <div class="row">
-    <div class="col-8">
-      <h2 id="texto-a-mostrar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tenetur laborum numquam pariatur expedita! Velit non perspiciatis mollitia, tenetur blanditiis alias ab. Deleniti animi alias inventore autem, ipsa molestias ducimus?</h2>
+    <div class="col-4">
+      <div class="colecta"><img id="donacion" src="imagenes/colecta.jpg" alt="" width="300px" height="300px"></div>
     </div>
     <div class="col-4">
-      <div id="formulario"><h2>¿Sos medico y te gustaria formar parte de nuestra agenda?</h2><div>
+      <h3>Hacete donante de medula osea, todo lo que tenes que saber aqui.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo voluptas fugiat unde, accusantium obcaecati amet pariatur, beatae rem cumque, reiciendis porro ratione autem excepturi! Fugit illo excepturi voluptatum delectus.</p>
+    </div>
+    <div class="col-4">
+      <div id="formulario"><h2 id="medico">¿Sos medico y te gustaria formar parte de nuestra agenda?</h2><div>
         <p>Dejanos tus datos y te contactaremos</p>
         <form action="profesionales" method="post" >
-          <label for="nombre">Nombre y apellido</label>
+          <label for="nombre">Nombre y apellido:</label>
           <input type="text" name="nombre" placeholder="Ingrese su nombre y apellido">
-          <label for="matricula">Matricula</label>
+          <label for="matricula">Matricula:</label>
           <input type="text" name="matricula" placeholder="Nº matricula">
-          <label for="email">Correo electronico</label>
+          <label for="email">Correo electronico:</label>
           <input type="text" name="email" placeholder="ingrese correo">
-          <label for="telefono">Numero de contacto</label>
+          <label for="telefono">Numero de contacto:</label>
           <input type="number" name="telefono" placeholder=" ej 115588445">
         </form>
       </div>
@@ -126,6 +130,17 @@
       <p class="card-text">Dirección: Gral. Paz 2540, B7400 Olavarría. <br> Horas: Abierto las 24 horas <br> Telefono 02284 44-2402</p></p>
     </div>
   </div></div>
+  <div class="row">
+    <div class="col-2">
+      <div class="card border-secondary mb-3" style="max-width: 25rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body text-secondary">
+          <h5 class="card-title">Secondary card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+  </div>
+ 
   
 </main>
  

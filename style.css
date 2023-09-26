@@ -12,17 +12,18 @@ z-index: 1000;
 }
 nav{
     width: 100%;
-    background-color: rgba(16, 26, 82, 0.829);
+    background-color: rgba(8, 2, 61, 0.829);
     border-radius: 10px;
     padding: 20px 0;
     margin-top: 2%;
+    box-shadow: 0 2px 5px 5px rgb(151, 144, 144);
     
 }
 nav .lista, h1{
     display: inline;
 }
 main{
-  margin-top: 100px;
+  margin-top: 113px;
 }
 .lista{
 margin-left:20%;
@@ -43,45 +44,59 @@ h1{
     margin-left: 20px;
 }
 iframe{
-   width: 400px;
+   width: 410px;
    height: 570px;
    padding: 10px;
+   margin-top: 5px;
+   box-shadow: 0 5px 8px 5px gray;
 }
-#mapa{
-  margin-top: 5%;
+#ubicacion a{
+  margin-top:20px;
+  margin: auto;
+  width: 70%;
+  font-size: small;
+  
 }
-
+#carouselExampleControls{
+  margin: auto;
+  width: 80%;
+  margin-top: 30px;
+}
 
 .carousel {
     background-color: #f0f0f0;
-    margin-inline-start: 2%;
-    margin: left 2%;
-    border: solid rgb(211, 209, 209) 2px;
+    border: solid rgb(247, 245, 245) 2px;
     box-shadow: #d4d1d1;
-    margin-top: ;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin-top: 30px;
+ 
+
   }
-  
   .carousel-inner {
     border-radius: 10px;
+    text-align: center;
+    
+   
     
   }
-  
   .carousel-item img {
     max-width: 100%;
-    height: auto;
-    
+    width: 600px;
+    height: 400px;
+    display: flex;
+    text-align: center; 
   }
-  
   .carousel-control-prev, .carousel-control-next {
     background-color: #dad7d7;
-    opacity: 40%
-    
+    opacity: 20%;
+    text-align: center;
   }
-  
   .carousel-indicators {
     background-color:white;
+    text-align: center;  
   }
-  
  #parrafo-a-mostrar{
   text-align: center;
   padding: 5px;
@@ -90,17 +105,13 @@ iframe{
   margin: auto;
   margin-top: 2%;
   font-size: 18px;
-  
  }
   h2{
     text-align: center;
-    padding: 12px;
-    
-    
+    padding: 12px; 
   }
   .col-4{
     background-color: #c2c1cf;
-    opacity:;
   }
 #centros{
   background-color: rgba(16, 26, 82, 0.829);
@@ -111,9 +122,10 @@ iframe{
 }
 .card-body{
   height: 200px;
-}
+  background-color: rgba(16, 26, 82, 0.829);
+  color: white;
   
- 
+}
 .col-3{
   padding: 20px;
 }
@@ -121,41 +133,43 @@ h4{
   text-align: center;
 }
 .card{
-  border: solid 2px rgb(185, 177, 177);
+  border: solid 2px rgb(68, 66, 66);
+  box-shadow: 0 5px 8px 5px rgb(126, 125, 125);
 }
 form{
-  padding: 10px;
+  padding: 20px 10px;
   border-radius: 10px;
   width: 100%;
 }
 #formulario{
   background-color: rgba(16, 26, 82, 0.829);
   color: white;
-  
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 8px 10px 8px rgb(14, 13, 13);
 }
 p{
   text-align: center;
 }
 label{
   margin-top: 5%;
-  border-radius: 10px;
 }
 input{
   border-radius: 10px;
-  border: solid 2px grey;
+  box-shadow: 2px 2px 4px rgba(88, 85, 85, 0.2);
+  border: none;
 }
 .card-text{
   text-align: start;
   margin: auto
 }
 input:focus {
-  background-color: lightblue;
+  background-color: rgb(2, 18, 32);
   color: darkblue;
 }
 #texto-a-mostrar {
   opacity: 0;
 }
-
 @keyframes aparecer {
   from {
       opacity: 0;
@@ -167,7 +181,6 @@ input:focus {
 #texto-a-mostrar {
   opacity: 0;
 }
-
 @keyframes aparecer {
   from {
       opacity: 0;
@@ -176,15 +189,41 @@ input:focus {
       opacity: 1;
   }
 }
-
 .aparecer {
-  animation: aparecer 3s ease-in-out forwards;
+  animation: aparecer 2s ease-in-out forwards;
 }
 #parrafo-a-mostrar{
   opacity: 0;
 }
 
+input:hover {
+  background-color: #aaa5a5;
+}
+.card {
+  transition: transform 0.3s;
+}
 
+.card:hover {
+  transform: scale(1.1);
+}
+.colecta{
+  padding: 10%;
+  width: 100%;
+}
+#donacion{
+  margin-top: 10px;
+  border-radius: 10px;
+  border: solid 3px black;
+}
+h3{
+  text-align: center;
+}
+hr{
+  margin-top: 50px;
+}
+.card-header{
+  background-color: #dad7d7;
+}
 
 
 

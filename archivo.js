@@ -20,15 +20,20 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('La animación ha terminado.');
     });
 });
-window.addEventListener("scroll", function() {
-    var menu = document.getElementById("menu");
-    if (window.scrollY > 100) { // Cambia 100 al valor de desplazamiento deseado
-      menu.classList.add("fixed-menu");
-    } else {
-      menu.classList.remove("fixed-menu");
-    }
-  });
- 
+const hr = document.querySelector('hr');
+
+hr.addEventListener('click', () => {
+  hr.style.transform = 'scaleX(2)';
+  setTimeout(() => {
+    hr.style.transform = 'scaleX(1)';
+  }, 1000); // Revertir después de 1 segundo
+});
+
+
+
+
+
+
   
   
   
