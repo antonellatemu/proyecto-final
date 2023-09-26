@@ -119,6 +119,8 @@ iframe{
   color: white;
   font-weight: bold;
   margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 .card-body{
   height: 200px;
@@ -213,16 +215,25 @@ input:hover {
 #donacion{
   margin-top: 10px;
   border-radius: 10px;
-  border: solid 3px black;
+  border: solid 1px black;
+  box-shadow: 5px 4px 4px 0;
+  margin-inline-start: 25px;
 }
 h3{
   text-align: center;
+  margin-top:5%;
+  margin-inline-end: 10%;
+  font-weight: bolder;
 }
 hr{
   margin-top: 50px;
 }
 .card-header{
   background-color: #dad7d7;
+}
+#medula{
+  margin-top: 20px;
+  text-align: left;
 }
 
 
