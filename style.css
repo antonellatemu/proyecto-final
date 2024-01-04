@@ -225,8 +225,7 @@ h3{
   margin-inline-end: 10%;
   font-weight: bolder;
 }
-hr{
-  margin-top: 50px;
+
 }
 .card-header{
   background-color: #dad7d7;
@@ -234,6 +233,27 @@ hr{
 #medula{
   margin-top: 20px;
   text-align: left;
+}
+.tiempo{
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  
+  
+}
+#auxilio{
+  width: 100%;
+  margin-top: 20px;
+  height: 220px;
+}
+h5{
+  margin-right: 10px;
+}
+li,p{
+  display: inline-block;
+}
+p{
+  margin-left: 50%;
 }
 
 
